@@ -21,13 +21,13 @@ npm install
 
 ## 2. Build
 ```bash
-gulp dev 
+gulp build 
 ```
 - build + watch 
 
 ## 3. Run
 ```bash
-gulp build
+gulp dev
 ```
 - this will process following tasks:
 * clean dist folder

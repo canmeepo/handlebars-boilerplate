@@ -1,0 +1,13 @@
+<ul class="nav">
+	{{#each navigation}}
+		<li class="nav__item"><a href="{{ link }}" class="text__nav nav__link">{{ title }}</a>
+        {{#if subnav}}
+                <ul class="nav__sub">
+                    {{#each subnav}}
+                       <li><a href="{{ link }}" class="text__geo">{{ title }}</a></li>
+                    {{/each}}
+                </ul>
+            {{/if}}
+        </li>
+	{{/each}}
+</ul>

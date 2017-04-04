@@ -21,18 +21,19 @@ npm install
 
 ## 2. Build
 ```bash
-gulp build 
-```
-- build + watch 
-
-## 3. Run
-```bash
-gulp dev
+gulp build
 ```
 - this will process following tasks:
 * clean dist folder
 * build static html files 
 * concat all JS and CSS files
+
+
+## 3. Run
+```bash
+gulp dev
+```
+- build + watch 
 
 ## Changelog
 

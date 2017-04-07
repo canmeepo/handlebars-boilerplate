@@ -39,4 +39,4 @@ gulp dev
 
 ### 1.0.0
 - initial release<br>
-22.03.2015
+03.04.2017

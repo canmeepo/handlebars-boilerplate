@@ -24,8 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "/node_modules/.bin/gulp",
     "test": "./node_modules/.bin/gulp build",
-    "start": "./node_modules/.bin/gulp dev",
-    "deploy": "./node_modules/.bin/gulp deploy"
+    "start": "./node_modules/.bin/gulp dev"
   },
   "author": "",
   "license": "ISC"

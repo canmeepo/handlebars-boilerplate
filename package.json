@@ -26,6 +26,6 @@
     "build": "./node_modules/.bin/gulp build",
     "start": "./node_modules/.bin/gulp dev"
   },
-  "author": "",
+  "author": "canmeepo",
   "license": "ISC"
 }

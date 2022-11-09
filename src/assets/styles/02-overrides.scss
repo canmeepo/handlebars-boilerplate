@@ -1,0 +1,19 @@
+.header-nav-primary {
+    background: #FFB548;
+    .logo {
+        display: inline-block;
+        margin-top: -25px;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+} 
+.interior-content {
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+}

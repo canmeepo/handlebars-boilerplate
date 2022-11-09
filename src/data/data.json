@@ -39,5 +39,72 @@
          "title":"Contacts",
          "link":"/contacts"
       }
-   ]
+   ],
+   "footer": {
+      "primary-nav": [
+         {
+            "title":"Home",
+            "link":"/index"
+         },
+         {
+            "title":"News",
+            "link":"/news"
+         },
+         {
+            "title":"FAQ",
+            "link":"/faq"
+         }
+      ],
+      "social-nav": [
+         {
+            "title":"Instagram",
+            "link":"/",
+            "icon": "fa fa-instagram"
+            
+         },
+         {
+            "title":"Facebook",
+            "link":"/",
+            "icon": "fa fa-facebook"
+            
+         },
+         {
+            "title":"LinkedIn",
+            "link":"/",
+            "icon": "fa fa-linkedin"
+            
+         },
+         {
+            "title":"Twitter",
+            "link":"/",
+            "icon": "fa fa-twitter"
+            
+         },
+         {
+            "title":"YouTube",
+            "link":"/",
+            "icon": "fa fa-youtube"
+            
+         }
+      ]
+   },
+   "home-news": {
+      "title": "Newsroom",
+      "description":"Hear more about our merger with X from CEO Mike Wells. Listen to his announcement, read a statement, download press kits and all things Wells news from our Newsroom.", 
+      "article": [
+         {
+            "title": "Wells Enterprises Expands Board of Directors",
+            "description": "SARA GREENSTEIN BRINGS EXPERTISE IN BUSINESS TRANSFORMATION AND OPERATIONAL EXCELLENCE",
+            "button": "Download",
+            "pdf": "#"
+         },
+         {
+            "title": "Wells Appoints New Member to Board of Directors",
+            "description": "Gwendolyn Hatten Butler brings 35+ years of financial expertise to board.",
+            "button": "Download",
+            "pdf": "#"
+         }
+      ]
+   }
+        
 }

@@ -1,0 +1,35 @@
+
+.social-icons {
+    
+    li {
+        border-radius: 50%;
+        display: inline-block;
+        border: 6px solid #ec1c2d;
+        font-size: 15px;
+        background: #ffffff;
+        width: 37px;
+        height: 37px;
+        line-height: inherit;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+ul.no-bullets {
+    text-align: center;
+    margin-top: 54px;
+    padding-bottom: 22px;
+}
+.page-footer .footer-img img {
+    width: 184px;
+    height: auto;
+    padding: 0;
+}
+.page-footer .footer-img::before {
+    width: calc(50% - 95px);
+    margin-top: 50px;
+}
+.page-footer .footer-img::after {
+    width: calc(50% - 95px);
+    margin-top: -56px;
+}

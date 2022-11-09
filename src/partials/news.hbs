@@ -1,0 +1,30 @@
+{{#with home-news}}
+<section class="interior-content container newsroom">
+    <h2 class="title">{{title}}</h2>
+    <p class="description">{{description}}</p>
+    {{!-- Video embed goes here --}}
+    <video width="100%" controls>
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML video.
+    </video>
+    <div class="homepage-news">
+        {{#each article}}
+        <article class="carousel-item" itemscope="" itemtype="http://schema.org/NewsArticle">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icecream-cone" viewBox="0 0 33.26 56.2" width="34" height="52"><defs></defs><title>cone-solid-gray</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M31.83,21.4c-.29.11-1.18-.39-1.77-.74l-.25-.15-.66-.39a6.79,6.79,0,0,0-.94-.46,3.1,3.1,0,0,0-.6-.17,4.64,4.64,0,0,0-3.78,1.25,4.9,4.9,0,0,1-1.77,1c-.79.19-1.61-.31-2.55-.89a7.53,7.53,0,0,0-2.88-1.23,7.74,7.74,0,0,0-4,1,13.46,13.46,0,0,1-1.48.61A3.32,3.32,0,0,1,9,20.67a7.88,7.88,0,0,0-2.24-.8A4.33,4.33,0,0,0,5.12,20a9.14,9.14,0,0,0-1,.31l-.74.29-.22.08c-1.24.49-1.93.67-2.42.28a2.66,2.66,0,0,1-.11-3.59,13.58,13.58,0,0,0,2-5.27c.1-.45.2-.9.32-1.35C4.64,4.29,11.45-.41,18.49,0a12.9,12.9,0,0,1,5.6,1.62A11.82,11.82,0,0,1,29,6.85a25.88,25.88,0,0,1,1.54,4.84,24.31,24.31,0,0,0,2.06,6l.11.2a3.68,3.68,0,0,1,.6,1.55A2.51,2.51,0,0,1,31.83,21.4Z"></path><path class="cls-1" d="M17.3,56.2,5.78,22a2.15,2.15,0,0,1,.71,0,6.3,6.3,0,0,1,1.65.62,4.91,4.91,0,0,0,3.64.67,15.08,15.08,0,0,0,1.72-.7,6.49,6.49,0,0,1,2.84-.85,5.79,5.79,0,0,1,2.06.94c1.16.71,2.48,1.51,4.1,1.13a6.68,6.68,0,0,0,2.54-1.35c.88-.66,1.37-1,2.19-.86a1.65,1.65,0,0,1,.35.13Z"></path></g></g></svg>
+                <h3 itemprop="name"><strong>{{title}}</strong></h3>
+                <p itemprop="description">{{description}}</p>
+                <p class="callout-link">{{button}}<i class="fa fa-angle-right"></i></p>
+            </div>
+        </article>
+        {{/each}} 
+    </div>
+    <div class="cta-container">
+        <a class="btn btn-primary" target="_blank" href="https://hcsb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1">Read More
+            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+        </a>
+    </div>
+    
+</section>
+{{/with}}

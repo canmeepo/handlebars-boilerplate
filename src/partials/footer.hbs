@@ -1,10 +1,45 @@
-<footer id="footer">
-	<div class="footer">
-		<div class="footer__bot">
-			<div class="container">
-				<p class="footer__bot-text">Build with ♥ by canmeepo</p>
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="/scripts/all.js"></script>
+<footer class="page-footer">
+    <div class="page-footer-main">
+		<div class="page-footer-main-container container">
+			<div class="footer-img"><a href="#"><img alt="" src="https://wellsenterprisesinc.azureedge.net/content/images/wells-logo.v2.svg"></a></div>
+            <nav class="footer-nav-primary">            
+				<ol>
+					{{#each footer.primary-nav}}
+					<li class="nav-item--level-1">
+						<a id="HomeNavLink" href="{{link}}">{{title}}</a>
+					</li>
+					{{/each}}
+				</ol>
+            </nav>
+            <nav class="footer-nav-social">
+                <ul class="social-icons no-bullets">
+					{{#each footer.social-nav}}
+						<li>
+							<a href="{{link}}" target="_blank" aria-label="{{title}}" title="{{title}}"><i class="{{icon}}"></i></a>
+						</li>
+					{{/each}}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="page-footer-bottom">
+        <div class="page-footer-bottom-container">
+            <div class="footer-img"><a href="#"><img alt="" src="https://wellsenterprisesinc.azureedge.net/content/images/wells-logo.v2.svg"></a></div>
+            <nav class="footer-nav-middle">
+                <ul class="no-bullets">
+                    <li><a href="/ask-wells">Contact Us</a></li>
+                    <li><a href="/coupon-policy">Coupon Policy</a></li>
+                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="/terms-of-use">Terms of Use</a></li>
+                    <li><a href="/privacy-policy#cookies">Ad Choices</a></li>
+                    <li><a href="/docs/wells-position-on-slavery-and-human-trafficking.pdf">California Supply Chains Act</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-nav-bottom">
+                <ul class="no-bullets">
+                    <li><span>© Copyright 2022  Wells Enterprises. All Rights Reserved.</span></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </footer>

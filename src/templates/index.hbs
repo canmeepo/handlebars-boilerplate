@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en" />
+<html class="no-js webp" lang="en" />
 	{{> head meta-title=home.meta-title meta-description=home.meta-description}}
-	<body class="index">
+	<body class="homepage">
+        <div class="overlay"></div>
+        <div class="container main-container">
+
+        
+        
 		<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
        {{> header}}
-       {{> header-post}}
+      
        <main class="page-main" role="main">
-{{> news}}
+        {{> interactive-section}}
+        {{> hero-section}}
+        {{> about-section}}
+        {{> pull-quote}}
+        {{> contact-section}}
+        
        </main>
        
 	   {{> footer}}
+       </div>
+       {{> aside}}
+       <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js" crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script>(window.jQuery||document.write("\u003Cscript src=\u0022/lib/jquery/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022\u003E\u003C/script\u003E"));</script>
+        <script src="scripts/all.js"></script>
 	</body>
 </html>

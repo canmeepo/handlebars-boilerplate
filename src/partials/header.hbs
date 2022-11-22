@@ -1,25 +1,40 @@
-<div class="header"> 
-  	<div class="container">
-		<div class="header__main">
-			
+<header class="page-header">
+		<div class="page-header-full">
+			<div class="page-header-full-container">
+				<nav class="header-nav-primary">
+					<div class="container">
+						<a class="logo" href="/">
+							<img alt="Wells Enterprises" src="https://wellsenterprisesinc.azureedge.net/content/images/wells-logo.v2.svg">
+						</a>								
+						<ol>
+						<li class="nav-item--level-1 ">
+								<a id="BrandsNavLink" href="/index.html">Home</a>
+						</li>
+						<li class="nav-item--level-1">
+							<a id="AboutNavLink" href="/news/index.html">News</a>
+						</li>
+						<li class="nav-item--level-1">
+							<a id="CommunityNavLink" href="/faq/index.html">FAQ</a>
+						</li>
+						</ol>
+					</div>
+				</nav>
+			</div>
 		</div>
-	</div>
-</div>
-<div class="subheader">
-	<div class="container">
-		<div class="subheader__main">
-			<div class="subheader__logo">
-				<div class="subheader__logo-l"><a href="/"><img></a></div>
-				<div class="subheader__logo-r"><a href="/"><span class="text__title-logo">companyname</span></a></div>
-			</div>
-
-			<div class="subheader__nav">
-				{{>nav}}
-			</div>
-			<div class="btn__mobile btn__mobile-menu"><span></span></div>
-			<div class="mobile">
-				{{>nav}}
+		<div class="page-header-compact">
+			<div class="page-header-compact-container">
+				<div class="header-nav-compact">
+					<a class="logo" href="/">
+						<img alt="Wells Enterprises" src="https://wellsenterprisesinc.azureedge.net/content/images/wells-logo.v2.svg">
+					</a>
+					<button class="off-canvas-trigger" type="button">
+						<i class="fa fa-bars"></i>
+						<i class="fa fa-close"></i>
+					</button>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
+		<div class="page-header-print">
+			<h1><a href="/">Wells Enterprises Inc.</a></h1>
+		</div>
+</header>

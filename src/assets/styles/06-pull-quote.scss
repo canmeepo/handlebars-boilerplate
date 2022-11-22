@@ -1,0 +1,70 @@
+.webp {
+    .hero {
+        background: #E1251B;
+        border-bottom: none;
+        .container {
+            background-image: url("../img/quote-bg.png");
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-size: 100%;
+            max-width: 100%;
+            background-position: center;
+            padding: 175px 44px 82px;
+            @media screen and (min-width: 992px) {
+                padding: 147px 128px 97px;
+            }
+            .content-container {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                @media screen and (min-width: 992px) {
+                    flex-direction: row;
+                }
+                .hero-img {
+                    width: 100%;
+                    
+                    display: flex;
+                    justify-content: flex-start;
+                    @media screen and (min-width: 992px) {
+                        width: 33%;
+                        margin-right: 3rem;
+                        justify-content: flex-end;
+                    }
+                    img {
+                        border-radius: 50%;
+                        width: 185px;
+                        height: 185px;
+                    }
+                }
+                .hero-callout {
+                    width: 100%;
+                    max-width: inherit;
+                    text-align: left;
+                    margin-top: 22px;
+                    @media screen and (min-width: 992px) {
+                        width: 66%;
+                        margin-top: 0;
+                    }
+                    h2 {
+                        color: #FFFFFF;
+                    }
+                    p {
+                        color: #FFFFFF;
+                    }
+                    .btn.btn-primary {
+                        background-color: transparent;
+                        color: #ffffff;
+                        border-color: #ffffff;
+                        font-weight: bold;
+                        padding: 15px 20px;
+                        line-height: initial;
+                        i {
+                            margin-left: 1.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

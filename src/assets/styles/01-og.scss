@@ -5711,6 +5711,9 @@
   .block-accordion {
     margin-bottom: 15px;
     padding: 0 0;
+    border: 2px solid #E1251B;
+    border-radius: 20px;
+    background: #ffffff;
   }
   .block-accordion:last-child {
     margin-bottom: 0;
@@ -5722,11 +5725,12 @@
     margin-bottom: 0px;
     position: relative;
     font-weight: 300;
-    padding: 17px 60px 17px 20px;
-    color: #ffffff;
-    background: #5e5e5e;
+    padding: 20px 60px 20px 0px;
+    color: #382F2D;;
+    background: #FFFFFF;
     font-size: 20px;
     font-size: 1.6447368421vw;
+    margin: 0 20px;
   }
   @media (max-width: 972.8px) {
     .block-accordion h4 {
@@ -5740,7 +5744,7 @@
   }
   @media (min-width: 64em) {
     .block-accordion h4 {
-      padding: 17px 100px 17px 50px;
+      padding: 27px 0px 27px 5px;
     }
   }
   .block-accordion h4:before {
@@ -5767,17 +5771,13 @@
       right: 50px;
     }
   }
-  .block-accordion h4:hover {
-    background-color: #ec1c2d;
-    color: #ffffff;
-  }
-  .block-accordion h4:hover:before {
-    color: #ec1c2d;
-  }
+  
   .block-accordion.open h4 {
-    color: #ffffff;
-    background: #000000;
+    color: #382F2D;
+    background: #ffffff;
     border-bottom: 0;
+    border-radius: 20px;
+    
   }
   .block-accordion.open h4:before {
     content: "\f0d8";
@@ -5788,10 +5788,11 @@
     display: none;
     border-top: 0;
     font-weight: 500;
-    background-color: #e6e6e6;
-    padding: 30px 50px;
+    background-color: #ffffff;
+    padding: 0px 50px 20px 20px;
     font-size: 16px;
     font-size: 1.3157894737vw;
+    border-radius: 20px;
   }
   @media (max-width: 1064px) {
     .block-accordion .accordion-content {
@@ -6047,12 +6048,9 @@
   }
   
   .no-webp .hero .container {
-    background-image: url("/content/images/wells-employees.png");
+    background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/wells-employees.png");
   }
-  
-  .webp .hero .container {
-    background-image: url("/content/images/wells-employees.webp");
-  }
+
   
   .hero {
     background: #e6e6e6;
@@ -6148,13 +6146,13 @@
   }
   @media (min-width: 64em) {
     .no-webp .homepage-hero {
-      background-image: url("/content/images/boy-eating-icecream.png");
+      background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/boy-eating-icecream.png");
     }
   }
   
   @media (min-width: 64em) {
     .webp .homepage-hero {
-      background-image: url("/content/images/boy-eating-icecream.webp");
+      background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/boy-eating-icecream.webp");
     }
   }
   
@@ -6910,17 +6908,17 @@
   }
   
   .no-webp .half-product-box .half-image {
-    background-image: url("/content/images/bomb-pop-girl.jpg");
+    background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/bomb-pop-girl.jpg");
   }
   .no-webp .half-product-box .half-image.right {
-    background-image: url("/content/images/community.jpg");
+    background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/community.jpg");
   }
   
   .webp .half-product-box .half-image {
-    background-image: url("/content/images/bomb-pop-girl.webp");
+    background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/community.webp");
   }
   .webp .half-product-box .half-image.right {
-    background-image: url("/content/images/community.webp");
+    background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/community.webp");
   }
   
   /* Magnific Popup CSS */
@@ -7783,20 +7781,20 @@
   }
   
   .no-webp .latest-scoop {
-    background-image: url("/content/images/flight-of-flavors-reversed.png");
+    background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/flight-of-flavors-reversed.png");
   }
   @media (min-width: 64em) {
     .no-webp .latest-scoop {
-      background-image: url("/content/images/flight-of-flavors.png");
+      background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/flight-of-flavors.png");
     }
   }
   
   .webp .latest-scoop {
-    background-image: url("/content/images/flight-of-flavors-reversed.webp");
+    background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/flight-of-flavors-reversed.webp");
   }
   @media (min-width: 64em) {
     .webp .latest-scoop {
-      background-image: url("/content/images/flight-of-flavors.webp");
+      background-image: url("https://wellsenterprisesinc.azureedge.net/content/images/flight-of-flavors.webp");
     }
   }
   

@@ -1,0 +1,29 @@
+.hero-section {
+
+  .container {
+    background-image: url("../img/hero-bg.png");
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 305px 328px 268px;
+    margin-top: -70px;
+    .hero-section-callout {
+      text-align: center;
+      color: white;
+      h1 {
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        max-width: 783px;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 115px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

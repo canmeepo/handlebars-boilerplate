@@ -1,0 +1,33 @@
+.contact-section {
+    h2 {
+        text-align: left;
+    }
+    p,
+    .email,
+    .phone {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px !important;
+        text-align: left;
+    }
+    p {
+        margin: 30px 0 !important;
+        line-height: 21px;
+        color: #382F2D;
+    }
+    
+    .email {
+        
+        text-decoration-line: underline;
+        color: #0B6CFF;
+    }
+    .phone {
+        color: #382F2D;
+    }
+    .email,
+    .phone {
+        margin: 0 !important;
+        line-height: 28px;
+    }
+}

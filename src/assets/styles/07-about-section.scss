@@ -1,0 +1,39 @@
+.about-section {
+  .container {
+    background-image: url("../img/about-bg.png");
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    padding: 140px 38px;
+    background-repeat: no-repeat;
+    .about-section-callout {
+      text-align: center;
+      color: white;
+      h2 {
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      p {
+        max-width: 792px;
+        margin: 0 auto 44px;
+      }
+      a {
+        color: #000000;
+        font-weight: bold;
+        i {
+          margin-left: 1.25rem;
+          &:before {
+            color: red;
+          }
+        }
+        &:hover {
+          background: white;
+        }
+      }
+    }
+  }
+}
